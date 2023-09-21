@@ -1,13 +1,13 @@
 package org.example;
 
 public class Room {
-    private String roomType;
+    private RoomType roomType;
 
-    public Room(String roomType) {
+    public Room(RoomType roomType) {
         this.roomType = roomType;
     }
 
-    public Object getRoomType() {
+    public RoomType getRoomType() {
         return this.roomType;
     }
 }
